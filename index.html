@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Siqueira & Souza</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"><img src="../responsive-travel-website-main/assets/img/logo.png" alt="logo Siqueira & Souza"></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Sobre Nós</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Serviços</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#place" class="nav__link">Clientes</a>
+                        </li>
+                    </ul>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.png" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Bem vindo á Siqueira & Souza.</span>
+                        <h1 class="home__data-title">Solicite um <br> orçamento gratuito <br><b> para ganhar<br>um PRESENTE!</b></h1>
+                        <a href="https://api.whatsapp.com/send?phone=5581979062154" class="button">Solicitar orçamento</a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/profile.php?id=100083162291006/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/siqueiraesouzaenergia/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send/?phone=558193953108&text&type=phone_number&app_absent=0" target="_blank" class="home__social-link">
+                            <i class="ri-whatsapp-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div>
+                            <span class="home__info-title">Conheça os projetos da Siqueira & Souza</span>
+                            <a href="#place" class="button button--flex button--link home__info-button">
+                                Mais <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__info-overlay">
+                            <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Por que Siqueira & Souza?</h2>
+                        <p class="about__description">A Siqueira e Souza Energia é uma empresa
+                            com base familiar fundada em 2021, porém
+                            sua história se iniciou desde 2014 quando dois
+                            dos sócios tiveram o primeiro contato com a
+                            energia fotovoltaica. Nessa época, os sócios
+                            possuíam uma empresa de construção civil,
+                            que em parceria com a WEG, fizeram a
+                            primeira usina de energia solar de Fernando de
+                            Noronha
+                        </p>
+                        <br>
+                        <p class="about__description">Após 7 anos desde a instalação da primeira
+                            usina, adquirimos uma franquia de energia
+                            solar. Com um ano de muito trabalho e criando
+                            nossa própria metodologia, nos tornamos líder
+                            em vendas na franquia, somando mais de
+                            R$4.000.000,00 em projetos executados e mais
+                            de 100 usinas instaladas no estado de
+                            Pernambuco.  
+                        </p>
+                        <a href="#" class="button">Saiba Mais</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.png" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.png" alt="" class="about__img-two">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about3.png" alt="" class="about__img-two">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about4.png" alt="" class="about__img-one">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Servicos <br> Siqueira & Souza</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Sistema de Telhado</h2>
+                                <span class="discover__description">não polui, é renovável, limpa e silenciosa, pode ser usada em áreas isoladas da rede elétrica, necessidade mínima de manutenção, muito fácil de instalar e é barato para manter.</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Sistema tecnologico</h2>
+                                <span class="discover__description">24 horas de controle da sua geracao de energia.</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Condominio Solar</h2>
+                                <span class="discover__description">Paineis instalados em uma area aberta proximo a edificios. Otima oportunidade para aqueles que moram em predios.</span>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.png" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Sistema de Solo</h2>
+                                <span class="discover__description">Permite maior quantidade de paineis solares.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EXPERIENCE ====================-->
+            <section class="experience section">
+                <h2 class="section__title">Com Nossa Experiência <br> Nós Vamos Servir Você</h2>
+
+                <div class="experience__container container grid">
+                    <div class="experience__content grid">
+                        <div class="experience__data">
+                            <h2 class="experience__number">30</h2>
+                            <span class="experience__description">Pessoas</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">17.000+</h2>
+                            <span class="experience__description">Modulos <br> Instalados</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">8.173.000+</h2>
+                            <span class="experience__description">kWh <br> Gerados por ano</span>
+                        </div>
+
+                        <div class="experience__data">
+                            <h2 class="experience__number">+R$6.163Mi</h2>
+                            <span class="experience__description">Economia <br> Ano</span>
+                        </div>
+                    </div>
+
+                    <div class="experience__img grid">
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience1.png" alt="" class="experience__img-one">
+                        </div>
+                        
+                        <div class="experience__overlay">
+                            <img src="assets/img/experience2.png" alt="" class="experience__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section">
+                <h2 class="section__title">Por que energia solar?</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">Saiba mais com o nosso vídeo para econimizar seu dinheiro.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PLACES ====================-->
+            <section class="place section" id="place">
+                <h2 class="section__title">Nossos Projetos</h2>
+
+                <div class="place__container container grid">
+                    <!--==================== PLACES CARD 1 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place1.png" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">18 placas</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Pau Amarelo</h3>
+                                <span class="place__subtitle">Paulista-PE</span>
+                                <span class="place__price"><b>Economia</b><br>$1.500,00</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 2 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place2.png" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">5 placas</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Curado V</h3>
+                                <span class="place__subtitle">Recife-PE</span>
+                                <span class="place__price"><b>Economia</b><br>$430,00</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 3 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place3.png" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">26 placas</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Timbauba</h3>
+                                <span class="place__subtitle">Pernambuco</span>
+                                <span class="place__price"><b>Economia</b><br>$2.200,00</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 4 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place4.png" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">11 placas</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Pau Amarelo</h3>
+                                <span class="place__subtitle">Paulista-PE</span>
+                                <span class="place__price"><b>Economia</b><br>$1.000,00</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 5 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place5.png" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">12 placas</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Igarassu</h3>
+                                <span class="place__subtitle">Pernambuco</span>
+                                <span class="place__price"><b>Economia</b><br>$1.100,00</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+
+                    <!--==================== PLACES CARD 6 ====================-->
+                    <div class="place__card">
+                        <img src="assets/img/place6.png" alt="" class="place__img">
+                        
+                        <div class="place__content">
+                            <span class="place__rating">
+                                <i class="ri-star-line place__rating-icon"></i>
+                                <span class="place__rating-number">12 placas</span>
+                            </span>
+
+                            <div class="place__data">
+                                <h3 class="place__title">Caruaru</h3>
+                                <span class="place__subtitle">Pernambuco</span>
+                                <span class="place__price"><b>Economia</b><br>$700,00</span>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__bg">
+                    <div class="subscribe__container container">
+                        <h2 class="section__title subscribe__title">Receba Notícias <br> e Promoções</h2>
+                        <p class="subscribe__description">Contamos com uma equipe de profissionais técnicos e capacitados para<br> executar a sua usina de energia solar. Se preocupe apenas em economizar!
+                        </p>
+    
+                        <form action="https://formsubmit.co/melocontatto@gmail.com" method= "POST" class="subscribe__form">
+                            <input type="text" placeholder="Enter email" class="subscribe__input">
+                            <input type="hidden" name="_captcha" value="false">
+    
+                            <button class="button">
+                                submeter
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== SPONSORS ====================-->
+            <section class="sponsor section">
+                <div class="sponsor__container container grid">
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+                    </div>
+                    <div class="sponsor__content">
+                        <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Siqueira & Souza</h3>
+                        <p class="footer__description">Transformando acoes em oportunidades.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+
+                            <a href="https://api.whatsapp.com/send/?phone=558193953108&text&type=phone_number&app_absent=0" target="_blank" class="home__social-link">
+                                <i class="ri-whatsapp-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">MENU</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#home" class="nav__link active-link">Home</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#about" class="nav__link">Sobre Nós</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#discover" class="nav__link">Serviços</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#place" class="nav__link">Clientes</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">SIGA-NOS</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                    <i class="ri-facebook-box-fill"></i>
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                    <i class="ri-instagram-fill"></i>
+                                </a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="https://api.whatsapp.com/send/?phone=558193953108&text&type=phone_number&app_absent=0" target="_blank" class="home__social-link">
+                                    <i class="ri-whatsapp-fill"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">CONTATO</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                </svg>
+
+                                <a href="" class="footer__link">&nbsp;Rua Veneza, 138, Iputinga, Recife-PE, 50800-400, Brasil</a>
+                            </li>
+                            <li class="footer__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                  </svg>
+
+                                <a href="" class="footer__link">&nbsp;(81) 9 9395-3108</a>
+                            </li>
+                            <li class="footer__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                  </svg>
+
+                                <a href="" class="footer__link">&nbsp;comercial@siqueiraesouza<br>&emsp;&ensp;energia.com</a>
+                            </li>
+                            <li class="footer__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                                    <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                                    <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+                                  </svg>
+
+                                <a href="" class="footer__link">&nbsp;segunda-sexta <b>08:00am</b> - <b>&emsp;17:00pm</b></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2022 siqueiraesouzaenergia. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
